@@ -1,0 +1,63 @@
+name: Generate Tracker Support
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Manual trigger with optional force flag
+    inputs:
+      force:
+        description: 'Force regeneration even if no changes'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check Prowlarr for changes
+        id: check
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Forced regeneration"
+          else
+            LATEST=$(curl -s https://api.github.com/repos/Prowlarr/Indexers/commits/master | jq -r .sha)
+            STORED=""
+            if [ -f .prowlarr-sha.txt ]; then
+              STORED=$(cat .prowlarr-sha.txt)
+            fi
+            if [ "$LATEST" != "$STORED" ]; then
+              echo "changed=true" >> $GITHUB_OUTPUT
+              echo "Upstream changed: $LATEST vs $STORED"
+            else
+              echo "changed=false" >> $GITHUB_OUTPUT
+              echo "No upstream changes"
+            fi
+          fi
+
+      - name: Generate tracker support data
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install -r scripts/requirements.txt
+          python scripts/generate-support.py --update
+          echo "Generation complete"
+
+      - name: Commit and push changes
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/tracker-index.json docs/TRACKERS.md
+          git commit -m "chore: update tracker support data [skip ci]"
+          git push

@@ -1,0 +1,58 @@
+name: Update metadata
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-metadata:
+    runs-on: ubuntu-latest
+    env:
+      SCRIPT: "Unit3dRequestsSearch.user.js"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Replace placeholders with main branch URLs
+        run: |
+          REPO_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}"
+          RAW_BASE="${REPO_URL}/raw/refs/heads/main"
+          RAW_SCRIPT="${RAW_BASE}/${SCRIPT}"
+
+          # Update userscript header
+          sed -i "s|<OWNER>|${GITHUB_REPOSITORY_OWNER}|g" "$SCRIPT"
+          sed -i "s|<REPO_URL>|${REPO_URL}|g" "$SCRIPT"
+          sed -i "s|<RAW_BASE>|${RAW_BASE}|g" "$SCRIPT"
+          sed -i "s|<RAW_SCRIPT>|${RAW_SCRIPT}|g" "$SCRIPT"
+
+          # Update bb_* files
+          for f in docs/bb_*; do
+            if [ -f "$f" ]; then
+              sed -i "s|<OWNER>|${GITHUB_REPOSITORY_OWNER}|g" "$f"
+              sed -i "s|<REPO_URL>|${REPO_URL}|g" "$f"
+              sed -i "s|<RAW_BASE>|${RAW_BASE}|g" "$f"
+              sed -i "s|<RAW_SCRIPT>|${RAW_SCRIPT}|g" "$f"
+            fi
+          done
+
+          # Update README links
+          sed -i "s|](${SCRIPT})|](${RAW_SCRIPT})|g" README.md
+
+          echo "Updated metadata with main branch URLs"
+
+      - name: Commit updated metadata
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add "$SCRIPT" docs/bb_* README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update metadata with main branch URLs"
+            git push origin HEAD:main
+          fi

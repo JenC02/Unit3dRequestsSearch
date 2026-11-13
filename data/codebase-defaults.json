@@ -1,0 +1,71 @@
+{
+  "codebases": [
+    {
+      "codebase": "UNIT3D",
+      "search": {
+        "path": "torrents",
+        "query_param": "name",
+        "params": {
+          "view": "card",
+          "startYear": "{year}",
+          "endYear": "{year}",
+          "seasonNumber": "{season}",
+          "episodeNumber": "{episode}",
+          "tmdbId": "{tmdbId}",
+          "imdbId": "{imdbNumeric}",
+          "tvdbId": "{tvdbId}"
+        },
+        "category": {
+          "mode": "indexed",
+          "param": "categoryIds[{index}]",
+          "source": "native"
+        }
+      }
+    },
+    {
+      "codebase": "XBTIT",
+      "search": {
+        "path": "index.php",
+        "query_param": "search",
+        "params": {
+          "page": "torrents",
+          "active": "1",
+          "options": "0"
+        },
+        "category": {
+          "mode": "joined",
+          "param": "category",
+          "separator": ";",
+          "source": "native"
+        }
+      }
+    },
+    {
+      "codebase": "Luminance",
+      "search": {
+        "path": "torrents.php",
+        "query_param": "searchtext"
+      }
+    },
+    {
+      "codebase": "Gazelle",
+      "search": {
+        "path": "torrents.php",
+        "query_param": "searchstr"
+      }
+    },
+    {
+      "codebase": "NexusPHP",
+      "search": {
+        "path": "torrents.php",
+        "query_param": "search",
+        "category": {
+          "mode": "keyed",
+          "param": "cat{id}",
+          "value": "1",
+          "source": "native"
+        }
+      }
+    }
+  ]
+}

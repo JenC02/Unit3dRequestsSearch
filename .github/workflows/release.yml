@@ -1,0 +1,38 @@
+name: Release userscript
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      SCRIPT: "Unit3dRequestsSearch.user.js"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify version matches tag
+        run: |
+          SCRIPT_VERSION=$(grep -E '^// @version' "$SCRIPT" | awk '{print $3}')
+          TAG_VERSION="${GITHUB_REF_NAME#v}"
+
+          echo "Script version: $SCRIPT_VERSION"
+          echo "Tag version:    $TAG_VERSION"
+
+          if [ "$SCRIPT_VERSION" != "$TAG_VERSION" ]; then
+            echo "Version mismatch between script and tag"
+            exit 1
+          fi
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ env.SCRIPT }}
+          generate_release_notes: true

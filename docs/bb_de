@@ -1,0 +1,19 @@
+[b][size=4]Unit3dRequestsSearch[/size][/b]
+
+Ein Tampermonkey-Userscript, das Suchfunktionen zu Unit3D-Tracker-Anforderungsseiten hinzufügt. Du kannst nach unerfüllten Anfragen über Prowlarr, qui, populäre Suchmaschinen und einzelne Tracker-Websites suchen.
+
+[URL=https://imgbox.com/UJQHnXwI][IMG]https://thumbs4.imgbox.com/82/31/UJQHnXwI_t.png[/IMG][/URL]
+[URL=https://imgbox.com/TzHSFJiI][IMG]https://thumbs4.imgbox.com/1e/24/TzHSFJiI_t.png[/IMG][/URL]
+
+[b]Funktionen:[/b]
+• Suchauswahlfeld und 🔍 Suchknöpfe in der Anforderungsliste und auf einzelnen Anforderungsseiten
+• Suche über lokale Prowlarr- und qui-Instanzen mit Kategorieauswahl und automatischer Ausfüllung
+• Suche über öffentliche Suchmaschinen: TMDB, TVDB, IMDb, DuckDuckGo, Google, Bing
+• Suche auf einzelnen Tracker-Websites (privat, halb-privat & öffentlich)
+• Bereichert Suchen mit Anforderungsdetails wie Titel, Jahr, IDs, Staffel, Episode, Auflösung und Release-Typ, wenn verfügbar
+• Unterstützt optionale Sprachfilterung und das Ausblenden öffentlicher oder nicht unterstützter Tracker aus dem Auswahlfeld
+• Kann die Anforderungsübersicht automatisch auf unerfüllte Anfragen filtern (?unfilled=true), mit Option zum Deaktivieren
+• Lädt und zwischenspeichert einen gemeinsamen Tracker-Index, mit manueller Aktualisierung
+
+[hr]
+[center][url=<REPO_URL>][b]Mehr auf GitHub[/b][/url][/center]

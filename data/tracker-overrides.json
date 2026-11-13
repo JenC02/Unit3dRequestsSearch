@@ -1,0 +1,54 @@
+{
+  "trackers": [
+    {
+      "id": "tracker:funfile",
+      "name": "FunFile",
+      "homepage": "https://www.funfile.org/",
+      "privacy": "private",
+      "search": {
+        "path": "browse.php",
+        "query_param": "search",
+        "params": {"sect": "search", "swin": "title"},
+        "category": {"mode": "repeat", "param": "scat[]", "source": "native"}
+      }
+    },
+    {
+      "id": "tracker:digitalcore",
+      "name": "DigitalCore",
+      "homepage": "https://digitalcore.club/",
+      "privacy": "private",
+      "search": {
+        "path": "search",
+        "query_param": "search",
+        "params": {"dead": "false", "page": "1", "viewMode": "table", "sort": "d", "order": "desc"},
+        "category": {"mode": "joined", "param": "cats", "separator": ",", "source": "native", "when_selected": {"fc": "true"}}
+      }
+    },
+    {
+      "id": "tracker:torrentleech",
+      "name": "TorrentLeech",
+      "homepage": "https://www.torrentleech.org/",
+      "privacy": "private",
+      "search": {"path": "torrents/browse/index/query/{query}"}
+    },
+    {
+      "id": "tracker:usefultrash",
+      "name": "UsefulTrash",
+      "homepage": "https://usefultrash.net/",
+      "privacy": "private",
+      "search": {"path": "search.php", "query_param": "search_name", "params": {"virtvoice": "1"}}
+    },
+    {
+      "id": "tracker:1337x",
+      "search": {"path": "search/{query}/1/"}
+    },
+    {
+      "id": "tracker:thepiratebay",
+      "search": {
+        "path": "search.php",
+        "query_param": "q",
+        "category": {"mode": "single", "param": "cat", "source": "explicit", "map": {"Movies": ["201"]}}
+      }
+    }
+  ]
+}
