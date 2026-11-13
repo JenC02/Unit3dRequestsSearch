@@ -3,11 +3,11 @@
 // @namespace    unit3d-requests-search
 // @version      0.2.2
 // @description  Search UNIT3D requests with Prowlarr, qui, web engines and tracker websites
-// @author       <OWNER>
-// @homepageURL  <REPO_URL>
-// @supportURL   <REPO_URL>/issues
-// @downloadURL  <RAW_SCRIPT>
-// @updateURL    <RAW_SCRIPT>
+// @author       JenC02
+// @homepageURL  https://github.com/JenC02/Unit3dRequestsSearch
+// @supportURL   https://github.com/JenC02/Unit3dRequestsSearch/issues
+// @downloadURL  https://github.com/JenC02/Unit3dRequestsSearch/raw/refs/heads/main/Unit3dRequestsSearch.user.js
+// @updateURL    https://github.com/JenC02/Unit3dRequestsSearch/raw/refs/heads/main/Unit3dRequestsSearch.user.js
 // @match        https://*/requests*
 // @match        *://*/search*
 // @match        *://*/qui/search*
@@ -25,7 +25,7 @@
 
   const PROWLARR_DEFAULT = 'https://prowlarr.home.arpa/search';
   const QUI_DEFAULT = 'https://qui.home.arpa/qui/search';
-  const INDEX_URL_DEFAULT = '<RAW_BASE>/data/tracker-index.json';
+  const INDEX_URL_DEFAULT = 'https://github.com/JenC02/Unit3dRequestsSearch/raw/refs/heads/main/data/tracker-index.json';
   const QUI_KEY = 'qui_search_url';
   const LANG_KEY = 'tm_request_languages';
   const HIDE_PUBLIC_KEY = 'tm_request_hide_public';

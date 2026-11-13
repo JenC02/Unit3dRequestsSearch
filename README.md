@@ -19,9 +19,9 @@ A Tampermonkey userscript that adds search functionality to Unit3D tracker reque
 ## Installation
 
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) browser extension
-2. Try installing the script automatically by opening the raw [`Unit3dRequestsSearch.user.js`](Unit3dRequestsSearch.user.js) URL. If this fails:
+2. Try installing the script automatically by opening the raw [`Unit3dRequestsSearch.user.js`](https://github.com/JenC02/Unit3dRequestsSearch/raw/refs/heads/main/Unit3dRequestsSearch.user.js) URL. If this fails:
    1. Click the Tampermonkey icon → "Create a new script"
-   2. Replace the template content with the contents of [`Unit3dRequestsSearch.user.js`](Unit3dRequestsSearch.user.js)
+   2. Replace the template content with the contents of [`Unit3dRequestsSearch.user.js`](https://github.com/JenC02/Unit3dRequestsSearch/raw/refs/heads/main/Unit3dRequestsSearch.user.js)
    3. Save the script (Ctrl+S)
    4. Visit/reload your UNIT3D tracker's requests page — the search controls should appear
 3. Configure the script according to the next section
