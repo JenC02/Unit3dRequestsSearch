@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T12:11:59+00:00",
+  "generated_at": "2026-11-15T13:07:33+00:00",
   "sources": {
     "prowlarr": "https://codeload.github.com/Prowlarr/Indexers/tar.gz/refs/heads/master"
   },
@@ -1333,14 +1333,15 @@
     {
       "id": "tracker:52bt",
       "name": "52BT",
-      "homepage": "https://jsrtlgzx.529075.xyz/",
+      "homepage": "https://6yxm6rs4.529075.xyz/",
       "hosts": [
         "0uymtmbw.529075.xyz",
         "4iua2ymm.529076.xyz",
         "4rjdejjp.529075.xyz",
         "52btbt.icu",
-        "5ei37jic.529076.xyz",
+        "6yxm6rs4.529075.xyz",
         "9kerqi55.529076.xyz",
+        "acjpmc4q.529076.xyz",
         "df1vkh27.529075.xyz",
         "edoqsc3t.529075.xyz",
         "efn74pwm.529075.xyz",
@@ -1349,7 +1350,6 @@
         "jsrtlgzx.529075.xyz",
         "l5vuntoi.529076.xyz",
         "q0nw83uf.529075.xyz",
-        "rj874i7o.529075.xyz",
         "sftmtj84.529076.xyz",
         "uld0z50p.529076.xyz",
         "z0u96tdo.529076.xyz",
@@ -13249,6 +13249,88 @@
           "id": 194,
           "cat": "PC/Games",
           "desc": "Игры по сети"
+        }
+      ],
+      "search": null,
+      "search_source": null
+    },
+    {
+      "id": "tracker:bytepeer",
+      "name": "BytePeer",
+      "homepage": "https://bytepeer.net/",
+      "hosts": [
+        "bytepeer.net"
+      ],
+      "privacy": "private",
+      "language": "en-US",
+      "uses_api": true,
+      "codebase": "Custom",
+      "codebase_source": "unknown",
+      "mappings": [
+        {
+          "id": 2000,
+          "cat": "Movies",
+          "desc": "Movies"
+        },
+        {
+          "id": 3000,
+          "cat": "Audio",
+          "desc": "Music"
+        },
+        {
+          "id": 4000,
+          "cat": "PC",
+          "desc": "Software"
+        },
+        {
+          "id": 4020,
+          "cat": "PC/0day",
+          "desc": "Operating System"
+        },
+        {
+          "id": 4050,
+          "cat": "PC/Games",
+          "desc": "Games"
+        },
+        {
+          "id": 4070,
+          "cat": "PC/Mobile-Other",
+          "desc": "Mobile Apps"
+        },
+        {
+          "id": 5000,
+          "cat": "TV",
+          "desc": "TV"
+        },
+        {
+          "id": 5060,
+          "cat": "TV/Sport",
+          "desc": "Sports"
+        },
+        {
+          "id": 5070,
+          "cat": "TV/Anime",
+          "desc": "Anime"
+        },
+        {
+          "id": 7020,
+          "cat": "Books/EBook",
+          "desc": "EBooks"
+        },
+        {
+          "id": 7030,
+          "cat": "Books/Comics",
+          "desc": "Comics"
+        },
+        {
+          "id": 8000,
+          "cat": "Other",
+          "desc": "Other"
+        },
+        {
+          "id": 8010,
+          "cat": "Other",
+          "desc": "Tutorials"
         }
       ],
       "search": null,
@@ -27341,6 +27423,11 @@
           "desc": "Movie 3D"
         },
         {
+          "id": 257,
+          "cat": "TV/HD",
+          "desc": "Serien HDR"
+        },
+        {
           "id": 57,
           "cat": "TV/HD",
           "desc": "Serien HD"
@@ -27371,6 +27458,56 @@
           "desc": "Serien SD"
         },
         {
+          "id": 212,
+          "cat": "TV/Anime",
+          "desc": "Anime Serie HD"
+        },
+        {
+          "id": 183,
+          "cat": "TV/Anime",
+          "desc": "Anime HD"
+        },
+        {
+          "id": 214,
+          "cat": "TV/Anime",
+          "desc": "Anime UHD"
+        },
+        {
+          "id": 213,
+          "cat": "TV/Anime",
+          "desc": "Anime Pack HD"
+        },
+        {
+          "id": 189,
+          "cat": "TV/Anime",
+          "desc": "Anime Serie"
+        },
+        {
+          "id": 184,
+          "cat": "TV/Anime",
+          "desc": "Anime SD"
+        },
+        {
+          "id": 186,
+          "cat": "TV/Anime",
+          "desc": "Anime 4K"
+        },
+        {
+          "id": 258,
+          "cat": "Movies/UHD",
+          "desc": "Kids UHD"
+        },
+        {
+          "id": 259,
+          "cat": "Movies/HD",
+          "desc": "Kids HDR"
+        },
+        {
+          "id": 222,
+          "cat": "Movies/HD",
+          "desc": "Kids HD"
+        },
+        {
           "id": 226,
           "cat": "Movies",
           "desc": "TV Film"
@@ -27389,46 +27526,6 @@
           "id": 228,
           "cat": "Books/Comics",
           "desc": "TV Comic"
-        },
-        {
-          "id": 212,
-          "cat": "TV/Anime",
-          "desc": "Anime Serie HD"
-        },
-        {
-          "id": 214,
-          "cat": "TV/Anime",
-          "desc": "Anime UHD"
-        },
-        {
-          "id": 213,
-          "cat": "TV/Anime",
-          "desc": "Anime Pack HD"
-        },
-        {
-          "id": 183,
-          "cat": "TV/Anime",
-          "desc": "Anime HD"
-        },
-        {
-          "id": 189,
-          "cat": "TV/Anime",
-          "desc": "Anime Serie"
-        },
-        {
-          "id": 184,
-          "cat": "TV/Anime",
-          "desc": "Anime SD"
-        },
-        {
-          "id": 186,
-          "cat": "TV/Anime",
-          "desc": "Anime 4K"
-        },
-        {
-          "id": 222,
-          "cat": "Movies/HD",
-          "desc": "Kids HD"
         },
         {
           "id": 157,
@@ -27481,9 +27578,19 @@
           "desc": "Music Mixe"
         },
         {
-          "id": 235,
-          "cat": "TV/Documentary",
-          "desc": "Doku Serie"
+          "id": 239,
+          "cat": "Movies/DVD",
+          "desc": "Releaser DVD"
+        },
+        {
+          "id": 244,
+          "cat": "Movies/BluRay",
+          "desc": "Releaser BD"
+        },
+        {
+          "id": 245,
+          "cat": "Movies/UHD",
+          "desc": "Releaser UHD"
         },
         {
           "id": 221,
@@ -27491,14 +27598,19 @@
           "desc": "Doku HD"
         },
         {
-          "id": 218,
-          "cat": "Console/Other",
-          "desc": "Game Nintendo Switch"
+          "id": 235,
+          "cat": "TV/Documentary",
+          "desc": "Doku Serie"
         },
         {
           "id": 120,
           "cat": "Console/PS3",
           "desc": "Game PlayStation"
+        },
+        {
+          "id": 218,
+          "cat": "Console/Other",
+          "desc": "Game Nintendo Switch"
         },
         {
           "id": 17,
@@ -27519,21 +27631,6 @@
           "id": 24,
           "cat": "Console/XBox",
           "desc": "Game XBOX"
-        },
-        {
-          "id": 239,
-          "cat": "Movies/DVD",
-          "desc": "Releaser DVD"
-        },
-        {
-          "id": 244,
-          "cat": "Movies/BluRay",
-          "desc": "Releaser BD"
-        },
-        {
-          "id": 245,
-          "cat": "Movies/UHD",
-          "desc": "Releaser UHD"
         },
         {
           "id": 12,
@@ -40015,6 +40112,11 @@
           "desc": "ArcoLinux"
         },
         {
+          "id": 33,
+          "cat": "PC/ISO",
+          "desc": "Argent Linux"
+        },
+        {
           "id": 2216,
           "cat": "PC/ISO",
           "desc": "Artix Linux"
@@ -40163,6 +40265,11 @@
           "id": 2028,
           "cat": "PC/ISO",
           "desc": "Calculate Linux"
+        },
+        {
+          "id": 27,
+          "cat": "PC/ISO",
+          "desc": "CatOS"
         },
         {
           "id": 102,
@@ -40570,6 +40677,11 @@
           "desc": "Huayra Linux"
         },
         {
+          "id": 31,
+          "cat": "PC/ISO",
+          "desc": "Hybrid-d77"
+        },
+        {
           "id": 2244,
           "cat": "PC/ISO",
           "desc": "Hyperbola GNU"
@@ -40583,6 +40695,11 @@
           "id": 252,
           "cat": "PC/ISO",
           "desc": "IPFire"
+        },
+        {
+          "id": 30,
+          "cat": "PC/ISO",
+          "desc": "Kader⁴²"
         },
         {
           "id": 2294,
@@ -40740,6 +40857,11 @@
           "desc": "Manjaro"
         },
         {
+          "id": 28,
+          "cat": "PC/ISO",
+          "desc": "Maple Linux"
+        },
+        {
           "id": 343,
           "cat": "PC/ISO",
           "desc": "MidnightBSD"
@@ -40878,6 +41000,11 @@
           "id": 2090,
           "cat": "PC/ISO",
           "desc": "OpenIndiana"
+        },
+        {
+          "id": 29,
+          "cat": "PC/ISO",
+          "desc": "openKylin"
         },
         {
           "id": 7,
@@ -41143,6 +41270,11 @@
           "id": 2116,
           "cat": "PC/ISO",
           "desc": "Robolinux"
+        },
+        {
+          "id": 32,
+          "cat": "PC/ISO",
+          "desc": "Rocky Linux"
         },
         {
           "id": 1223,
@@ -42750,7 +42882,9 @@
       "name": "Magnet Cat",
       "homepage": "https://magnetcatcat.com/",
       "hosts": [
+        "09y0il0i.8800593.xyz",
         "1n7cba2l.8800594.xyz",
+        "3da62obz.8800594.xyz",
         "3i8apol7.8800593.xyz",
         "5upzl5b4.8800594.xyz",
         "64pvm8t5.8800591.xyz",
@@ -42758,6 +42892,7 @@
         "77ck7tqg.8800592.xyz",
         "9nre48ty.8800593.xyz",
         "bc8s64gh.8800592.xyz",
+        "cad4c58f.8800592.xyz",
         "clmclm.com",
         "ig21sl1k.8800591.xyz",
         "jg3ry47f.8800593.xyz",
@@ -42771,6 +42906,7 @@
         "rhieawo0.8800593.xyz",
         "s5za45r4.8800592.xyz",
         "u99bzkev.8800592.xyz",
+        "v2m82n25.8800591.xyz",
         "vb5cvxjp.8800591.xyz",
         "vwtwhc36.8800591.xyz",
         "w91bn6ho.8800591.xyz",
@@ -50150,6 +50286,71 @@
       "search_source": "prowlarr"
     },
     {
+      "id": "tracker:nightbloom-api",
+      "name": "NightBloom",
+      "homepage": "https://nightbloom.cx/",
+      "hosts": [
+        "nightbloom.cx"
+      ],
+      "privacy": "private",
+      "language": "en-US",
+      "uses_api": true,
+      "codebase": "UNIT3D",
+      "codebase_source": "prowlarr_comment",
+      "mappings": [
+        {
+          "id": 1,
+          "cat": "Movies",
+          "desc": "Movies"
+        },
+        {
+          "id": 2,
+          "cat": "TV",
+          "desc": "TV"
+        },
+        {
+          "id": 3,
+          "cat": "Audio",
+          "desc": "Music"
+        },
+        {
+          "id": 4,
+          "cat": "Console",
+          "desc": "Games"
+        },
+        {
+          "id": 5,
+          "cat": "PC",
+          "desc": "Software"
+        },
+        {
+          "id": 6,
+          "cat": "TV/Anime",
+          "desc": "Anime"
+        }
+      ],
+      "search": {
+        "path": "torrents",
+        "query_param": "name",
+        "params": {
+          "view": "card",
+          "startYear": "{year}",
+          "endYear": "{year}",
+          "seasonNumber": "{season}",
+          "episodeNumber": "{episode}",
+          "tmdbId": "{tmdbId}",
+          "imdbId": "{imdbNumeric}",
+          "tvdbId": "{tvdbId}"
+        },
+        "category": {
+          "mode": "indexed",
+          "param": "categoryIds[{index}]",
+          "source": "native"
+        }
+      },
+      "search_source": "codebase"
+    },
+    {
       "id": "tracker:nipponsei",
       "name": "Nipponsei",
       "homepage": "https://nipponsei.minglong.org/",
@@ -54450,7 +54651,8 @@
         "nyaa.uk-unblock.xyz",
         "nyaa.unblocked.bar",
         "nyaa.unblocked.casa",
-        "nyaa.unblockninja.com"
+        "nyaa.unblockninja.com",
+        "nyaa.wiki"
       ],
       "privacy": "public",
       "language": "en-US",
@@ -63612,7 +63814,7 @@
         {
           "id": "Film",
           "cat": "Movies",
-          "desc": "Filmg"
+          "desc": "Film"
         },
         {
           "id": "Sorozat",
@@ -79205,7 +79407,8 @@
       "hosts": [
         "sukebei.nyaa.lol",
         "sukebei.nyaa.mom",
-        "sukebei.nyaa.si"
+        "sukebei.nyaa.si",
+        "sukebei.nyaa.wiki"
       ],
       "privacy": "public",
       "language": "en-US",
