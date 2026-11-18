@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T15:07:01+00:00",
+  "generated_at": "2026-11-18T14:45:35+00:00",
   "sources": {
     "prowlarr": "https://codeload.github.com/Prowlarr/Indexers/tar.gz/refs/heads/master"
   },
@@ -27419,8 +27419,8 @@
         },
         {
           "id": 26,
-          "cat": "Movies/3D",
-          "desc": "Movie 3D"
+          "cat": "Movies/HD",
+          "desc": "Movie HDR"
         },
         {
           "id": 257,
@@ -37907,39 +37907,9 @@
           "desc": "Films FanEdits/Restorations"
         },
         {
-          "id": 46,
-          "cat": "Other",
-          "desc": "Films Collections [Various Media]"
-        },
-        {
-          "id": 20,
-          "cat": "TV/Other",
-          "desc": "Films Stand-up"
-        },
-        {
-          "id": 16,
-          "cat": "Audio/Video",
-          "desc": "Films Music Videos"
-        },
-        {
-          "id": 86,
-          "cat": "Other",
-          "desc": "Films Education [Various]"
-        },
-        {
-          "id": 33,
-          "cat": "Movies/Other",
-          "desc": "Films [TMDB UnListed]"
-        },
-        {
-          "id": 42,
-          "cat": "Movies/Other",
-          "desc": "Films Shorts [TMDB UnListed]"
-        },
-        {
-          "id": 27,
-          "cat": "Movies/Foreign",
-          "desc": "Films SubPar"
+          "id": 2,
+          "cat": "TV",
+          "desc": "Series [Complete Seasons]"
         },
         {
           "id": 9,
@@ -37947,19 +37917,14 @@
           "desc": "Anime [Series/OVAs]"
         },
         {
-          "id": 2,
-          "cat": "TV",
-          "desc": "TV Complete Seasons"
-        },
-        {
           "id": 41,
           "cat": "TV",
-          "desc": "TV Single Episodes"
+          "desc": "Series Single Episodes"
         },
         {
           "id": 31,
           "cat": "TV/Foreign",
-          "desc": "TV Series SubPar"
+          "desc": "Series Series SubPar"
         },
         {
           "id": 38,
@@ -37972,29 +37937,14 @@
           "desc": "Documentary [Series]"
         },
         {
-          "id": 35,
-          "cat": "TV/Sport",
-          "desc": "TV Sports"
+          "id": 46,
+          "cat": "Other",
+          "desc": "Films Collections [Various Media]"
         },
         {
-          "id": 85,
-          "cat": "Books/Comics",
-          "desc": "Comics & Manga"
-        },
-        {
-          "id": 3,
-          "cat": "Audio",
-          "desc": "Music"
-        },
-        {
-          "id": 34,
-          "cat": "Audio/Audiobook",
-          "desc": "Audio Books"
-        },
-        {
-          "id": 44,
-          "cat": "Audio",
-          "desc": "Audio"
+          "id": 20,
+          "cat": "TV/Other",
+          "desc": "TV Stand-up"
         },
         {
           "id": 7,
@@ -38007,9 +37957,34 @@
           "desc": "Zines and Newspapers"
         },
         {
-          "id": 53,
-          "cat": "Books/EBook",
-          "desc": "Ebooks/Manga/Comics"
+          "id": 85,
+          "cat": "Books/Comics",
+          "desc": "Comics & Manga"
+        },
+        {
+          "id": 3,
+          "cat": "Audio",
+          "desc": "Music"
+        },
+        {
+          "id": 16,
+          "cat": "Audio/Video",
+          "desc": "Music Videos"
+        },
+        {
+          "id": 34,
+          "cat": "Audio/Audiobook",
+          "desc": "Audio Books"
+        },
+        {
+          "id": 35,
+          "cat": "TV/Sport",
+          "desc": "TV Sports"
+        },
+        {
+          "id": 86,
+          "cat": "Other",
+          "desc": "Films Education [Various]"
         },
         {
           "id": 47,
@@ -38047,9 +38022,29 @@
           "desc": "3D Prints and CAD"
         },
         {
-          "id": 51,
-          "cat": "PC/Games",
-          "desc": "Software & Games"
+          "id": 33,
+          "cat": "Movies/Other",
+          "desc": "Films [TMDB UnListed]"
+        },
+        {
+          "id": 42,
+          "cat": "Movies/Other",
+          "desc": "Films Shorts [TMDB UnListed]"
+        },
+        {
+          "id": 27,
+          "cat": "Movies/Foreign",
+          "desc": "Films SubPar"
+        },
+        {
+          "id": 23,
+          "cat": "Other",
+          "desc": "Other_Or_Not_Sure"
+        },
+        {
+          "id": 43,
+          "cat": "Other",
+          "desc": "Internal Testing"
         },
         {
           "id": 6,
@@ -38082,14 +38077,39 @@
           "desc": "Mature PMV"
         },
         {
-          "id": 23,
-          "cat": "Other",
-          "desc": "Other_Or_Not_Sure"
+          "id": 67,
+          "cat": "XXX",
+          "desc": "Mature Scheiße"
         },
         {
-          "id": 43,
+          "id": 68,
+          "cat": "XXX",
+          "desc": "Mature Golden Showers"
+        },
+        {
+          "id": 69,
+          "cat": "XXX",
+          "desc": "Mature Rainbow Showers"
+        },
+        {
+          "id": 44,
+          "cat": "Audio",
+          "desc": "Audio"
+        },
+        {
+          "id": 53,
+          "cat": "Books/EBook",
+          "desc": "Ebooks/Manga/Comics"
+        },
+        {
+          "id": 51,
+          "cat": "PC/Games",
+          "desc": "Software & Games"
+        },
+        {
+          "id": 11,
           "cat": "Other",
-          "desc": "Internal Testing"
+          "desc": "NSFL [Unlisted]"
         }
       ],
       "search": {
@@ -39894,7 +39914,7 @@
         {
           "id": 2311,
           "cat": "PC/ISO",
-          "desc": "AlmaLinux"
+          "desc": "AlmaLinux OS"
         },
         {
           "id": 2003,
@@ -40015,6 +40035,11 @@
           "id": 2219,
           "cat": "PC/ISO",
           "desc": "BackSlash Linux"
+        },
+        {
+          "id": 43,
+          "cat": "PC/ISO",
+          "desc": "Basalt Linux"
         },
         {
           "id": 2237,
@@ -42781,17 +42806,16 @@
         "09y0il0i.8800593.xyz",
         "1n7cba2l.8800594.xyz",
         "3da62obz.8800594.xyz",
-        "3i8apol7.8800593.xyz",
-        "5upzl5b4.8800594.xyz",
         "64pvm8t5.8800591.xyz",
-        "72b0ds2z.8800591.xyz",
         "9nre48ty.8800593.xyz",
         "bc8s64gh.8800592.xyz",
         "cad4c58f.8800592.xyz",
         "clmclm.com",
         "ddva3qou.8800593.xyz",
+        "g0285ce5.8800594.xyz",
         "gip5amwp.8800594.xyz",
         "ig21sl1k.8800591.xyz",
+        "j2nd5a3g.8800591.xyz",
         "jg3ry47f.8800593.xyz",
         "kfqa4hej.8800593.xyz",
         "magnetcatcat.com",
@@ -42799,14 +42823,15 @@
         "ozjldl21.8800594.xyz",
         "qetquy4s.8800593.xyz",
         "qpy7neeu.8800594.xyz",
-        "s5za45r4.8800592.xyz",
         "sngszic3.8800591.xyz",
         "u99bzkev.8800592.xyz",
         "v2m82n25.8800591.xyz",
         "vb5cvxjp.8800591.xyz",
         "w91bn6ho.8800591.xyz",
         "x1zle850.8800594.xyz",
-        "y97x63dk.8800592.xyz"
+        "xzyfga3k.8800593.xyz",
+        "y97x63dk.8800592.xyz",
+        "ym8mc8vb.8800592.xyz"
       ],
       "privacy": "public",
       "language": "en-US",
