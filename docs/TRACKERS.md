@@ -467,12 +467,6 @@ Category links use fixed example terms so they can be tested manually.
 | [The Show](https://theshow.click/) | XBTT | ✅ | ❔ | [Other](https://theshow.click/browse.php?incldead=1&titleonly=1&nonboolean=0&sort=added&d=DESC&search=Linux&filter_cat[72]=1&filter_cat[81]=1&filter_cat[17]=1&filter_cat[30]=1&filter_cat[6]=1&filter_cat[9]=1&filter_cat[29]=1&filter_cat[56]=1&filter_cat[25]=1&filter_cat[63]=1&filter_cat[65]=1&filter_cat[64]=1&filter_cat[32]=1&filter_cat[66]=1&filter_cat[67]=1&filter_cat[73]=1&filter_cat[200]=1&filter_cat[70]=1&filter_cat[94]=1&filter_cat[82]=1&filter_cat[76]=1&filter_cat[75]=1&filter_cat[78]=1&filter_cat[51]=1&filter_cat[4]=1&filter_cat[10]=1&filter_cat[1]=1&filter_cat[7]=1&filter_cat[53]=1&filter_cat[77]=1&filter_cat[79]=1&filter_cat[80]=1&filter_cat[83]=1&filter_cat[84]=1&filter_cat[85]=1&filter_cat[49]=1&filter_cat[26]=1&filter_cat[54]=1&filter_cat[13]=1&filter_cat[69]=1&filter_cat[68]=1&filter_cat[71]=1&filter_cat[92]=1&filter_cat[91]=1&filter_cat[87]=1&filter_cat[90]=1&filter_cat[93]=1&filter_cat[11]=1&filter_cat[52]=1&filter_cat[89]=1&filter_cat[88]=1&filter_cat[21]=1) | 0/1 |
 | [The Vault](https://thevault.click/) | XBTT | ✅ | ❔ | [Other](https://thevault.click/browse.php?incldead=1&titleonly=1&nonboolean=0&sort=added&d=DESC&search=Linux&filter_cat[200]=1&filter_cat[202]=1&filter_cat[107]=1&filter_cat[110]=1&filter_cat[117]=1&filter_cat[92]=1&filter_cat[96]=1&filter_cat[63]=1&filter_cat[106]=1&filter_cat[118]=1&filter_cat[112]=1&filter_cat[94]=1&filter_cat[103]=1&filter_cat[84]=1&filter_cat[65]=1&filter_cat[113]=1&filter_cat[73]=1&filter_cat[67]=1&filter_cat[75]=1&filter_cat[70]=1&filter_cat[85]=1&filter_cat[80]=1&filter_cat[90]=1&filter_cat[83]=1&filter_cat[81]=1&filter_cat[82]=1&filter_cat[62]=1&filter_cat[93]=1&filter_cat[97]=1&filter_cat[105]=1&filter_cat[76]=1&filter_cat[100]=1&filter_cat[115]=1&filter_cat[95]=1&filter_cat[101]=1&filter_cat[98]=1&filter_cat[108]=1&filter_cat[99]=1&filter_cat[102]=1&filter_cat[114]=1&filter_cat[111]=1&filter_cat[116]=1&filter_cat[68]=1&filter_cat[104]=1&filter_cat[71]=1&filter_cat[72]=1&filter_cat[109]=1&filter_cat[91]=1) | 0/1 |
 
-## crankShaft (1)
-
-| Tracker | Codebase | Search | Search tested | Category filters | Category tested |
-| --- | --- | :---: | :---: | --- | :---: |
-| [RacingForMe](https://www.racingfor.me/) | crankShaft | — | — | — | — |
-
 ## phpBB (4)
 
 | Tracker | Codebase | Search | Search tested | Category filters | Category tested |
@@ -545,7 +539,7 @@ Category links use fixed example terms so they can be tested manually.
 | --- | --- | :---: | :---: | --- | :---: |
 | [0Magnet](https://16mag.net/) | Custom | — | — | — | — |
 | [1337x](https://1337x.to/) | Custom | ✅ | ❔ | — | — |
-| [52BT](https://b66htcsm.529075.xyz/) | Custom | — | — | — | — |
+| [52BT](https://kniqgmy2.529075.xyz/) | Custom | — | — | — | — |
 | [ACG.RIP](https://acg.rip/) | Custom | — | — | — | — |
 | [Anibt](https://anibt.net/) | Custom | — | — | — | — |
 | [Anime Tosho](https://animetosho.net/) | Custom | — | — | — | — |
@@ -623,7 +617,7 @@ Category links use fixed example terms so they can be tested manually.
 | [YTS](https://yts.gg/) | Custom | — | — | — | — |
 | [Zamunda LIFE](https://zamunda.life/) | Custom | — | — | — | — |
 
-## Unsupported (83)
+## Unsupported (84)
 
 | Tracker | Codebase | Search | Search tested | Category filters | Category tested |
 | --- | --- | :---: | :---: | --- | :---: |
@@ -686,6 +680,7 @@ Category links use fixed example terms so they can be tested manually.
 | [Periodical](https://periodical.me/) | Custom | — | — | — | — |
 | [PolishTracker](https://pte.nu/) | Custom | — | — | — | — |
 | [PornoLab](https://pornolab.net/) | Custom | — | — | — | — |
+| [RacingForMe](https://www.racingfor.me/) | Custom | — | — | — | — |
 | [RetroToon](https://www.retrotoon.world/) | Custom | — | — | — | — |
 | [RinTor](https://rintor.org/) | Custom | — | — | — | — |
 | [Rousi.pro](https://rousi.pro/) | Custom | — | — | — | — |
