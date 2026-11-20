@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T14:52:21+00:00",
+  "generated_at": "2026-11-20T14:34:05+00:00",
   "sources": {
     "prowlarr": "https://codeload.github.com/Prowlarr/Indexers/tar.gz/refs/heads/master"
   },
@@ -40502,6 +40502,11 @@
           "desc": "Gnewsense"
         },
         {
+          "id": 47,
+          "cat": "PC/ISO",
+          "desc": "GNU/Linux KDu"
+        },
+        {
           "id": 22,
           "cat": "PC/ISO",
           "desc": "GNUSlashLinux"
@@ -41005,6 +41010,11 @@
           "id": 423,
           "cat": "PC/ISO",
           "desc": "PCLinuxOS"
+        },
+        {
+          "id": 46,
+          "cat": "PC/ISO",
+          "desc": "PelandukOS"
         },
         {
           "id": 429,
