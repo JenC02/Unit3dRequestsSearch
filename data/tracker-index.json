@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T14:34:05+00:00",
+  "generated_at": "2026-11-21T13:52:45+00:00",
   "sources": {
     "prowlarr": "https://codeload.github.com/Prowlarr/Indexers/tar.gz/refs/heads/master"
   },
@@ -42824,9 +42824,11 @@
       "hosts": [
         "027bpblv.8800592.xyz",
         "09y0il0i.8800593.xyz",
+        "0dz0z4ll.8800594.xyz",
         "1n7cba2l.8800594.xyz",
         "3da62obz.8800594.xyz",
         "64pvm8t5.8800591.xyz",
+        "8ctnktjz.8800591.xyz",
         "9nre48ty.8800593.xyz",
         "bc8s64gh.8800592.xyz",
         "cad4c58f.8800592.xyz",
@@ -42834,13 +42836,11 @@
         "ddva3qou.8800593.xyz",
         "g0285ce5.8800594.xyz",
         "gip5amwp.8800594.xyz",
-        "ig21sl1k.8800591.xyz",
+        "hsg8scvc.8800593.xyz",
         "j2nd5a3g.8800591.xyz",
         "jg3ry47f.8800593.xyz",
-        "kfqa4hej.8800593.xyz",
+        "kdahz0jv.8800592.xyz",
         "magnetcatcat.com",
-        "oktwseic.8800592.xyz",
-        "ozjldl21.8800594.xyz",
         "qetquy4s.8800593.xyz",
         "qpy7neeu.8800594.xyz",
         "sngszic3.8800591.xyz",
@@ -91333,6 +91333,208 @@
       ],
       "search": null,
       "search_source": null
+    },
+    {
+      "id": "tracker:trackerformers",
+      "name": "Trackerformers",
+      "homepage": "https://trackerformers.org/",
+      "hosts": [
+        "trackerformers.org"
+      ],
+      "privacy": "private",
+      "language": "de-DE",
+      "uses_api": false,
+      "codebase": "Custom",
+      "codebase_source": "unknown",
+      "mappings": [
+        {
+          "id": 166,
+          "cat": "Movies",
+          "desc": "Allgemein Movies"
+        },
+        {
+          "id": 166,
+          "cat": "TV",
+          "desc": "Allgemein TV"
+        },
+        {
+          "id": 157,
+          "cat": "TV/Documentary",
+          "desc": "Doku 1080p"
+        },
+        {
+          "id": 156,
+          "cat": "TV/Documentary",
+          "desc": "Doku 720p"
+        },
+        {
+          "id": 155,
+          "cat": "TV/Documentary",
+          "desc": "Doku SD x264/x265"
+        },
+        {
+          "id": 152,
+          "cat": "Books/EBook",
+          "desc": "E-Books"
+        },
+        {
+          "id": 165,
+          "cat": "Movies/3D",
+          "desc": "Filme 3D"
+        },
+        {
+          "id": 141,
+          "cat": "Movies/HD",
+          "desc": "Filme HD 1080p"
+        },
+        {
+          "id": 154,
+          "cat": "Movies/HD",
+          "desc": "Filme HD 720p"
+        },
+        {
+          "id": 139,
+          "cat": "Movies/HD",
+          "desc": "Filme Packs HD 1080p"
+        },
+        {
+          "id": 106,
+          "cat": "Movies/HD",
+          "desc": "Filme Packs HD 720p"
+        },
+        {
+          "id": 105,
+          "cat": "Movies/SD",
+          "desc": "Filme Packs SD x264/x265"
+        },
+        {
+          "id": 153,
+          "cat": "Movies/SD",
+          "desc": "Filme SD x264/x265"
+        },
+        {
+          "id": 140,
+          "cat": "Movies/UHD",
+          "desc": "Filme UHD 2160p"
+        },
+        {
+          "id": 118,
+          "cat": "Audio/Audiobook",
+          "desc": "Hörbücher"
+        },
+        {
+          "id": 129,
+          "cat": "Audio",
+          "desc": "Musik MP3/FLAC"
+        },
+        {
+          "id": 112,
+          "cat": "Audio",
+          "desc": "Musik Packs MP3/FLAC"
+        },
+        {
+          "id": 167,
+          "cat": "TV/UHD",
+          "desc": "Serie 2160"
+        },
+        {
+          "id": 113,
+          "cat": "TV/HD",
+          "desc": "Serie HD 1080p"
+        },
+        {
+          "id": 125,
+          "cat": "TV/HD",
+          "desc": "Serie HD 720p"
+        },
+        {
+          "id": 138,
+          "cat": "TV/HD",
+          "desc": "Serie Packs HD 1080p"
+        },
+        {
+          "id": 116,
+          "cat": "TV/HD",
+          "desc": "Serie Packs HD 720p"
+        },
+        {
+          "id": 137,
+          "cat": "TV/SD",
+          "desc": "Serie Packs SD x264/x265"
+        },
+        {
+          "id": 133,
+          "cat": "TV/SD",
+          "desc": "Serie SD x264/x265"
+        },
+        {
+          "id": 168,
+          "cat": "TV/UHD",
+          "desc": "Serien Packs 2160"
+        },
+        {
+          "id": 161,
+          "cat": "Other",
+          "desc": "Sonstige"
+        },
+        {
+          "id": 163,
+          "cat": "TV/Sport",
+          "desc": "Sport"
+        },
+        {
+          "id": 150,
+          "cat": "PC/0day",
+          "desc": "Windows Apps"
+        },
+        {
+          "id": 149,
+          "cat": "PC/Games",
+          "desc": "Windows Spiele"
+        },
+        {
+          "id": 147,
+          "cat": "XXX/x264",
+          "desc": "XXX HD 1080p"
+        },
+        {
+          "id": 146,
+          "cat": "XXX/x264",
+          "desc": "XXX HD 720p"
+        },
+        {
+          "id": 148,
+          "cat": "XXX/Pack",
+          "desc": "XXX Packs"
+        },
+        {
+          "id": 69,
+          "cat": "XXX/SD",
+          "desc": "XXX SD x264/x265"
+        },
+        {
+          "id": 151,
+          "cat": "Books/Mags",
+          "desc": "Zeitschriften"
+        }
+      ],
+      "search": {
+        "path": "browse.php",
+        "query_param": "search",
+        "params": {
+          "showsearch": "1",
+          "incldead": "1",
+          "orderby": "added",
+          "sort": "desc"
+        },
+        "category": {
+          "mode": "keyed",
+          "param": "c{id}",
+          "value": "1",
+          "source": "native"
+        }
+      },
+      "search_source": "prowlarr"
     },
     {
       "id": "tracker:trackermk",
