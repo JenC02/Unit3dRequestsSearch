@@ -5,7 +5,7 @@
 > A generated search link is **not** proof that the search works on the website.
 > Search and category test results are recorded manually.
 
-**532 trackers** · **336 searchable**
+**530 trackers** · **334 searchable**
 
 Category links use fixed example terms so they can be tested manually.
 `*` means category selection requires JavaScript and the URL alone is insufficient.
@@ -116,7 +116,7 @@ Category links use fixed example terms so they can be tested manually.
 | [Torrent Trader](https://the-torrent-trader.com/) | NetVision | ✅ | ❔ | [Movies](https://the-torrent-trader.com/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Terminator&c135=1&c130=1&c134=1&c148=1&c146=1&c105=1&c127=1&c149=1&c150=1), [TV](https://the-torrent-trader.com/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=The+Sopranos&c142=1&c137=1&c138=1&c144=1&c116=1&c143=1&c118=1), [Audio](https://the-torrent-trader.com/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Pink+Floyd&c124=1&c123=1&c122=1&c133=1&c125=1), [Books](https://the-torrent-trader.com/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Dune&c120=1), [PC](https://the-torrent-trader.com/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Half+Life&c113=1&c114=1&c115=1&c109=1&c111=1&c110=1), [Console](https://the-torrent-trader.com/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Super+Mario&c112=1), [XXX](https://the-torrent-trader.com/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Test&c69=1), [Other](https://the-torrent-trader.com/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Linux&c119=1&c121=1&c129=1&c151=1) | 0/8 |
 | [Unbreakable](https://unbreakable5.eu/) | NetVision | ✅ | ❔ | [Movies](https://unbreakable5.eu/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Terminator&c168=1&c103=1&c104=1&c141=1&c154=1&c166=1&c139=1&c106=1&c105=1&c119=1&c153=1&c140=1&c102=1&c127=1), [TV](https://unbreakable5.eu/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=The+Sopranos&c157=1&c167=1&c156=1&c165=1&c164=1&c163=1&c135=1&c155=1&c115=1&c113=1&c125=1&c144=1&c138=1&c116=1&c137=1&c143=1&c133=1&c114=1&c169=1), [Audio](https://unbreakable5.eu/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Pink+Floyd&c118=1&c109=1&c129=1&c111=1&c112=1&c170=1), [Books](https://unbreakable5.eu/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Dune&c152=1&c151=1), [PC](https://unbreakable5.eu/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Half+Life&c150=1&c149=1), [Console](https://unbreakable5.eu/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Super+Mario&c161=1&c162=1), [XXX](https://unbreakable5.eu/browse.php?showsearch=1&incldead=1&orderby=added&sort=desc&search=Test&c69=1) | 0/7 |
 
-## NexusPHP (103)
+## NexusPHP (102)
 
 | Tracker | Codebase | Search | Search tested | Category filters | Category tested |
 | --- | --- | :---: | :---: | --- | :---: |
@@ -171,7 +171,6 @@ Category links use fixed example terms so they can be tested manually.
 | [LP-Bits 2.0](https://lp-bits.com/) | NexusPHP | ✅ | ❔ | [Audio](https://lp-bits.com/torrents.php?incldead=0&spstate=0&search_area=0&search_mode=0&sort=4&type=desc&notnewword=1&search=Pink+Floyd&cat409=1&cat404=1&cat406=1&cat407=1&cat408=1&cat410=1) | 0/1 |
 | [LuckPT](https://pt.luckpt.de/) | NexusPHP | ✅ | ❔ | [Movies](https://pt.luckpt.de/torrents.php?search=Terminator&cat401=1), [TV](https://pt.luckpt.de/torrents.php?search=The+Sopranos&cat402=1&cat405=1&cat410=1&cat411=1&cat412=1&cat413=1), [Audio](https://pt.luckpt.de/torrents.php?search=Pink+Floyd&cat406=1&cat408=1), [Other](https://pt.luckpt.de/torrents.php?search=Linux&cat409=1) | 0/4 |
 | [March](https://duckboobee.org/) | NexusPHP | ✅ | ❔ | [Movies](https://duckboobee.org/torrents.php?search=Terminator&cat401=1), [TV](https://duckboobee.org/torrents.php?search=The+Sopranos&cat402=1&cat403=1&cat404=1&cat405=1&cat407=1), [Audio](https://duckboobee.org/torrents.php?search=Pink+Floyd&cat406=1&cat408=1), [Other](https://duckboobee.org/torrents.php?search=Linux&cat409=1) | 0/4 |
-| [MomentPT](https://www.momentpt.top/) | NexusPHP | ✅ | ❔ | [Other](https://www.momentpt.top/torrents.php?incldead=0&spstate=0&search_area=0&search_mode=0&sort=4&type=desc&notnewword=1&search=Linux&cat401=1&cat402=1&cat403=1&cat404=1&cat416=1&cat415=1&cat414=1&cat413=1&cat412=1&cat411=1&cat405=1) | 0/1 |
 | [Musopia (音乐乌托邦)](https://www.musopia.vip/) | NexusPHP | ✅ | ❔ | [Audio](https://www.musopia.vip/torrents.php?incldead=0&spstate=0&search_area=0&search_mode=0&sort=4&type=desc&notnewword=1&search=Pink+Floyd&cat406=1&cat407=1&cat408=1&cat409=1) | 0/1 |
 | [Muxuege](https://pt.muxuege.org/) | NexusPHP | ✅ | ❔ | [Movies](https://pt.muxuege.org/torrents.php?search=Terminator&cat401=1), [TV](https://pt.muxuege.org/torrents.php?search=The+Sopranos&cat402=1&cat403=1&cat404=1&cat405=1&cat407=1&cat416=1), [Audio](https://pt.muxuege.org/torrents.php?search=Pink+Floyd&cat406=1&cat408=1&cat418=1&cat417=1), [Books](https://pt.muxuege.org/torrents.php?search=Dune&cat412=1), [PC](https://pt.muxuege.org/torrents.php?search=Half+Life&cat415=1&cat410=1), [Console](https://pt.muxuege.org/torrents.php?search=Super+Mario&cat411=1), [Other](https://pt.muxuege.org/torrents.php?search=Linux&cat414=1&cat413=1&cat409=1) | 0/7 |
 | [NetHD](https://nethd.org/) | NexusPHP | ✅ | ❔ | [Movies](https://nethd.org/torrents.php?search=Terminator&cat401=1), [TV](https://nethd.org/torrents.php?search=The+Sopranos&cat401=1), [Audio](https://nethd.org/torrents.php?search=Pink+Floyd&cat402=1), [Books](https://nethd.org/torrents.php?search=Dune&cat406=1), [PC](https://nethd.org/torrents.php?search=Half+Life&cat403=1&cat404=1), [Other](https://nethd.org/torrents.php?search=Linux&cat405=1) | 0/6 |
@@ -336,7 +335,7 @@ Category links use fixed example terms so they can be tested manually.
 | [R3V WTF!](https://r3vuk.wtf/) | U-232 | ✅ | ❔ | [Movies](https://r3vuk.wtf/browse.php?searchin=title&incldead=1&only_free=0&sort=4&type=2&search=Terminator&c36=1&c20=1&c17=1&c26=1&c44=1&c10=1&c46=1), [TV](https://r3vuk.wtf/browse.php?searchin=title&incldead=1&only_free=0&sort=4&type=2&search=The+Sopranos&c23=1&c16=1&c49=1&c15=1), [Audio](https://r3vuk.wtf/browse.php?searchin=title&incldead=1&only_free=0&sort=4&type=2&search=Pink+Floyd&c34=1&c38=1&c37=1&c14=1&c40=1&c22=1&c53=1&c42=1), [Books](https://r3vuk.wtf/browse.php?searchin=title&incldead=1&only_free=0&sort=4&type=2&search=Dune&c24=1), [PC](https://r3vuk.wtf/browse.php?searchin=title&incldead=1&only_free=0&sort=4&type=2&search=Half+Life&c1=1&c51=1), [XXX](https://r3vuk.wtf/browse.php?searchin=title&incldead=1&only_free=0&sort=4&type=2&search=Test&c50=1), [Other](https://r3vuk.wtf/browse.php?searchin=title&incldead=1&only_free=0&sort=4&type=2&search=Linux&c39=1) | 0/7 |
 | [UsefulTrash](https://usefultrash.net/) | U-232 | ✅ | ❔ | — | — |
 
-## UNIT3D (87)
+## UNIT3D (86)
 
 | Tracker | Codebase | Search | Search tested | Category filters | Category tested |
 | --- | --- | :---: | :---: | --- | :---: |
@@ -416,7 +415,6 @@ Category links use fixed example terms so they can be tested manually.
 | [TheLeachZone](https://tlzdigital.com/) | UNIT3D | ✅ | ❔ | [Movies](https://tlzdigital.com/torrents?view=card&name=Terminator&categoryIds[0]=1), [TV](https://tlzdigital.com/torrents?view=card&name=The+Sopranos&categoryIds[0]=2), [Audio](https://tlzdigital.com/torrents?view=card&name=Pink+Floyd&categoryIds[0]=3), [Books](https://tlzdigital.com/torrents?view=card&name=Dune&categoryIds[0]=4), [PC](https://tlzdigital.com/torrents?view=card&name=Half+Life&categoryIds[0]=6), [Console](https://tlzdigital.com/torrents?view=card&name=Super+Mario&categoryIds[0]=5), [Other](https://tlzdigital.com/torrents?view=card&name=Linux&categoryIds[0]=7) | 0/7 |
 | [Thor HUB](https://thorhub.eu/) | UNIT3D | ✅ | ❔ | [Movies](https://thorhub.eu/torrents?view=card&name=Terminator&categoryIds[0]=1&categoryIds[1]=5), [TV](https://thorhub.eu/torrents?view=card&name=The+Sopranos&categoryIds[0]=2&categoryIds[1]=7), [Audio](https://thorhub.eu/torrents?view=card&name=Pink+Floyd&categoryIds[0]=3), [Console](https://thorhub.eu/torrents?view=card&name=Super+Mario&categoryIds[0]=4), [XXX](https://thorhub.eu/torrents?view=card&name=Test&categoryIds[0]=6&categoryIds[1]=10), [Other](https://thorhub.eu/torrents?view=card&name=Linux&categoryIds[0]=8) | 0/6 |
 | [Torrenteros](https://torrenteros.org/) | UNIT3D | ✅ | ❔ | [Movies](https://torrenteros.org/torrents?view=card&name=Terminator&categoryIds[0]=1), [TV](https://torrenteros.org/torrents?view=card&name=The+Sopranos&categoryIds[0]=2), [Audio](https://torrenteros.org/torrents?view=card&name=Pink+Floyd&categoryIds[0]=3&categoryIds[1]=4) | 0/3 |
-| [TorrentHaven](https://torrenthaven.org/) | UNIT3D | ✅ | ❔ | [Movies](https://torrenthaven.org/torrents?view=card&name=Terminator&categoryIds[0]=1&categoryIds[1]=18&categoryIds[2]=19), [TV](https://torrenthaven.org/torrents?view=card&name=The+Sopranos&categoryIds[0]=22&categoryIds[1]=2&categoryIds[2]=20&categoryIds[3]=6&categoryIds[4]=10&categoryIds[5]=12&categoryIds[6]=7&categoryIds[7]=8&categoryIds[8]=9&categoryIds[9]=11&categoryIds[10]=13&categoryIds[11]=14&categoryIds[12]=15), [Audio](https://torrenthaven.org/torrents?view=card&name=Pink+Floyd&categoryIds[0]=25&categoryIds[1]=3&categoryIds[2]=17), [PC](https://torrenthaven.org/torrents?view=card&name=Half+Life&categoryIds[0]=4), [Console](https://torrenthaven.org/torrents?view=card&name=Super+Mario&categoryIds[0]=5), [Other](https://torrenthaven.org/torrents?view=card&name=Linux&categoryIds[0]=21) | 0/6 |
 | [TorrentHR](https://www.torrenthr.org/) | UNIT3D | ✅ | ❔ | [Movies](https://www.torrenthr.org/torrents?view=card&name=Terminator&categoryIds[0]=4&categoryIds[1]=14&categoryIds[2]=17&categoryIds[3]=40&categoryIds[4]=18), [TV](https://www.torrenthr.org/torrents?view=card&name=The+Sopranos&categoryIds[0]=31&categoryIds[1]=16&categoryIds[2]=15&categoryIds[3]=18&categoryIds[4]=12&categoryIds[5]=7&categoryIds[6]=34), [Audio](https://www.torrenthr.org/torrents?view=card&name=Pink+Floyd&categoryIds[0]=11&categoryIds[1]=3&categoryIds[2]=29), [Books](https://www.torrenthr.org/torrents?view=card&name=Dune&categoryIds[0]=25&categoryIds[1]=30), [PC](https://www.torrenthr.org/torrents?view=card&name=Half+Life&categoryIds[0]=1&categoryIds[1]=38&categoryIds[2]=5), [Console](https://www.torrenthr.org/torrents?view=card&name=Super+Mario&categoryIds[0]=27&categoryIds[1]=28&categoryIds[2]=26), [XXX](https://www.torrenthr.org/torrents?view=card&name=Test&categoryIds[0]=10&categoryIds[1]=36), [Other](https://www.torrenthr.org/torrents?view=card&name=Linux&categoryIds[0]=13) | 0/8 |
 | [TurkSeed](https://turkseed.com/) | UNIT3D | ✅ | ❔ | [Movies](https://turkseed.com/torrents?view=card&name=Terminator&categoryIds[0]=1&categoryIds[1]=2&categoryIds[2]=24), [TV](https://turkseed.com/torrents?view=card&name=The+Sopranos&categoryIds[0]=6&categoryIds[1]=5&categoryIds[2]=18&categoryIds[3]=25), [Audio](https://turkseed.com/torrents?view=card&name=Pink+Floyd&categoryIds[0]=30), [PC](https://turkseed.com/torrents?view=card&name=Half+Life&categoryIds[0]=27), [Console](https://turkseed.com/torrents?view=card&name=Super+Mario&categoryIds[0]=28), [Other](https://turkseed.com/torrents?view=card&name=Linux&categoryIds[0]=26) | 0/6 |
 | [upload.cx](https://upload.cx/) | UNIT3D | ✅ | ❔ | [Movies](https://upload.cx/torrents?view=card&name=Terminator&categoryIds[0]=1), [TV](https://upload.cx/torrents?view=card&name=The+Sopranos&categoryIds[0]=2) | 0/2 |
@@ -540,7 +538,7 @@ Category links use fixed example terms so they can be tested manually.
 | --- | --- | :---: | :---: | --- | :---: |
 | [0Magnet](https://16mag.net/) | Custom | — | — | — | — |
 | [1337x](https://1337x.to/) | Custom | ✅ | ❔ | — | — |
-| [52BT](https://kniqgmy2.529075.xyz/) | Custom | — | — | — | — |
+| [52BT](https://wk98up47.529075.xyz/) | Custom | — | — | — | — |
 | [ACG.RIP](https://acg.rip/) | Custom | — | — | — | — |
 | [Anibt](https://anibt.net/) | Custom | — | — | — | — |
 | [Anime Tosho](https://animetosho.net/) | Custom | — | — | — | — |
@@ -592,7 +590,7 @@ Category links use fixed example terms so they can be tested manually.
 | [Shana Project](https://www.shanaproject.com/) | Custom | ✅ | ❔ | — | — |
 | [showRSS](https://showrss.info/) | Custom | — | — | — | — |
 | [SkidrowRepack](https://skidrowrepack.com/) | Custom | — | — | — | — |
-| [sosulki](https://sosulki.bosk.cc/) | DataLife | — | — | — | — |
+| [sosulki](https://sosulka.bosk.cc/) | DataLife | — | — | — | — |
 | [sukebei.nyaa.si](https://sukebei.nyaa.si/) | Custom | — | — | — | — |
 | [The Pirate Bay](https://thepiratebay.org/) | Custom | ✅ | ❔ | [Movies](https://thepiratebay.org/search.php?q=Terminator&cat=201) | 0/1 |
 | [Tokyo Toshokan](https://www.tokyotosho.info/) | Custom | — | — | — | — |
@@ -615,7 +613,7 @@ Category links use fixed example terms so they can be tested manually.
 | [World-torrent](https://www.darkfox.ws/) | Custom | — | — | — | — |
 | [XXXClub](https://xxxclub.to/) | Custom | — | — | — | — |
 | [xxxtor](https://xxxtor.com/) | Custom | — | — | — | — |
-| [YTS](https://yts.gg/) | Custom | — | — | — | — |
+| [YTS](https://yts.pw/) | Custom | — | — | — | — |
 | [Zamunda LIFE](https://zamunda.life/) | Custom | — | — | — | — |
 
 ## Unsupported (84)
@@ -642,7 +640,6 @@ Category links use fixed example terms so they can be tested manually.
 | [BlueTorrents](https://bluetorrents.com/) | Custom | — | — | — | — |
 | [Boxing Torrents](https://tc-boxing.com/) | Custom | — | — | — | — |
 | [BTArg](https://www.btarg.com.ar/) | Custom | — | — | — | — |
-| [BytePeer](https://bytepeer.net/) | Custom | — | — | — | — |
 | [C411](https://c411.org/) | Custom | — | — | — | — |
 | [Cinemageddon](https://cinemageddon.net/) | Custom | — | — | — | — |
 | [CinemaMovieS_ZT](https://cinemamovies.pl/) | Custom | — | — | — | — |
@@ -706,3 +703,4 @@ Category links use fixed example terms so they can be tested manually.
 | [World-In-HD](https://world-in-hd.net/) | Custom | — | — | — | — |
 | [World-of-Tomorrow](https://w-o-t.pro/) | Custom | — | — | — | — |
 | [YggReborn](https://www.yggreborn.org/) | Custom | — | — | — | — |
+| [ZXX CLUB](https://zxxclub.com/) | Custom | — | — | — | — |
