@@ -538,7 +538,7 @@ Category links use fixed example terms so they can be tested manually.
 | --- | --- | :---: | :---: | --- | :---: |
 | [0Magnet](https://16mag.net/) | Custom | — | — | — | — |
 | [1337x](https://1337x.to/) | Custom | ✅ | ❔ | — | — |
-| [52BT](https://wk98up47.529075.xyz/) | Custom | — | — | — | — |
+| [52BT](https://71zlavfb.529075.xyz/) | Custom | — | — | — | — |
 | [ACG.RIP](https://acg.rip/) | Custom | — | — | — | — |
 | [Anibt](https://anibt.net/) | Custom | — | — | — | — |
 | [Anime Tosho](https://animetosho.net/) | Custom | — | — | — | — |
@@ -603,8 +603,8 @@ Category links use fixed example terms so they can be tested manually.
 | [TorrentDownload](https://www.torrentdownload.info/) | Custom | — | — | — | — |
 | [TorrentKitty](https://www.torrentkitty.cam/) | Custom | — | — | — | — |
 | [TorrentProject2](https://torrentproject.cc/) | Custom | — | — | — | — |
-| [Torrentsome](https://torrentsome273.com/) | Custom | — | — | — | — |
-| [Torrenttip](https://torrenttip253.top/) | Custom | — | — | — | — |
+| [Torrentsome](https://torrentsome274.com/) | Custom | — | — | — | — |
+| [Torrenttip](https://torrenttip254.top/) | Custom | — | — | — | — |
 | [U3C3](https://u3c3.com/) | Custom | — | — | — | — |
 | [Uindex](https://uindex.org/) | Custom | ✅ | ❔ | — | — |
 | [VST Torrentz](https://vsttorrentz.net/) | WordPress | — | — | — | — |

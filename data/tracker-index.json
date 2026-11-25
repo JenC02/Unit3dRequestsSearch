@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T16:41:38+00:00",
+  "generated_at": "2026-11-25T16:25:11+00:00",
   "sources": {
     "prowlarr": "https://codeload.github.com/Prowlarr/Indexers/tar.gz/refs/heads/master"
   },
@@ -1333,7 +1333,7 @@
     {
       "id": "tracker:52bt",
       "name": "52BT",
-      "homepage": "https://wk98up47.529075.xyz/",
+      "homepage": "https://71zlavfb.529075.xyz/",
       "hosts": [
         "0i8durjc.529075.xyz",
         "0uymtmbw.529075.xyz",
@@ -1341,11 +1341,13 @@
         "4iua2ymm.529076.xyz",
         "52btbt.icu",
         "6yxm6rs4.529075.xyz",
+        "71zlavfb.529075.xyz",
         "8nxcbp6u.529076.xyz",
         "acjpmc4q.529076.xyz",
         "b66htcsm.529075.xyz",
         "df1vkh27.529075.xyz",
         "efn74pwm.529075.xyz",
+        "ft28p1q8.529076.xyz",
         "h38jny4v.529076.xyz",
         "ifz487ay.529076.xyz",
         "jsrtlgzx.529075.xyz",
@@ -38580,6 +38582,11 @@
           "id": 2033,
           "cat": "PC/ISO",
           "desc": "Chapeau"
+        },
+        {
+          "id": 50,
+          "cat": "PC/ISO",
+          "desc": "Circle Linux"
         },
         {
           "id": 2253,
@@ -88853,9 +88860,8 @@
     {
       "id": "tracker:torrentsome",
       "name": "Torrentsome",
-      "homepage": "https://torrentsome273.com/",
+      "homepage": "https://torrentsome274.com/",
       "hosts": [
-        "torrentsome258.com",
         "torrentsome259.com",
         "torrentsome260.com",
         "torrentsome261.com",
@@ -88870,7 +88876,8 @@
         "torrentsome270.com",
         "torrentsome271.com",
         "torrentsome272.com",
-        "torrentsome273.com"
+        "torrentsome273.com",
+        "torrentsome274.com"
       ],
       "privacy": "public",
       "language": "ko-KR",
@@ -88945,9 +88952,8 @@
     {
       "id": "tracker:torrenttip",
       "name": "Torrenttip",
-      "homepage": "https://torrenttip253.top/",
+      "homepage": "https://torrenttip254.top/",
       "hosts": [
-        "torrenttip238.top",
         "torrenttip239.top",
         "torrenttip240.top",
         "torrenttip241.top",
@@ -88962,7 +88968,8 @@
         "torrenttip250.top",
         "torrenttip251.top",
         "torrenttip252.top",
-        "torrenttip253.top"
+        "torrenttip253.top",
+        "torrenttip254.top"
       ],
       "privacy": "public",
       "language": "ko-KR",
